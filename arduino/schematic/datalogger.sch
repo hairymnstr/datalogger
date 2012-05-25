@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 24 May 2012 22:24:53 BST
+EESchema Schematic File Version 2  date Fri 25 May 2012 22:57:14 BST
 LIBS:74xx
 LIBS:adc-dac
 LIBS:analog_switches
@@ -31,15 +31,15 @@ LIBS:texas
 LIBS:transistors
 LIBS:valves
 LIBS:xilinx
-EELAYER 43  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "24 may 2012"
+Title "Arduino temperature datalogger"
+Date "25 may 2012"
 Rev ""
-Comp ""
+Comp "nathandumont.com"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -403,8 +403,8 @@ $Comp
 L R R?
 U 1 1 4FBE9F9A
 P 5350 5200
-F 0 "R?" V 5430 5200 50  0000 C CNN
-F 1 "R" V 5350 5200 50  0000 C CNN
+F 0 "R?" V 5400 5450 50  0000 C CNN
+F 1 "2k2" V 5350 5200 50  0000 C CNN
 	1    5350 5200
 	1    0    0    -1  
 $EndComp
@@ -412,8 +412,8 @@ $Comp
 L R R?
 U 1 1 4FBE9F96
 P 5450 5200
-F 0 "R?" V 5530 5200 50  0000 C CNN
-F 1 "R" V 5450 5200 50  0000 C CNN
+F 0 "R?" V 5500 5450 50  0000 C CNN
+F 1 "2k2" V 5450 5200 50  0000 C CNN
 	1    5450 5200
 	1    0    0    -1  
 $EndComp
