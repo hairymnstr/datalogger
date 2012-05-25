@@ -1,0 +1,6 @@
+ARDUINO DATALOGGER
+==================
+
+The project was started at a hack day and is essentially the simplest, cheapest datalogger I could build with parts on hand.  The prototype is an Arduino based set-up for rapid deployment.  The arduino folder contains both the sketch (needs OneWire library and DS1307 RTC library from Adafruit to work) and a wiring schematic for the prototype.  Project summary is on my blog http://www.nathandumont.com/node/265
+
+
