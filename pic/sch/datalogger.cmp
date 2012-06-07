@@ -1,23 +1,9 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Thu 07 Jun 2012 13:12:54 BST
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Thu 07 Jun 2012 15:25:26 BST
 
 BeginCmp
 TimeStamp = /4FCF79F2;
 Reference = C1;
 ValeurCmp = 1u;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FCF71F4;
-Reference = C2;
-ValeurCmp = (22p);
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FCF71F9;
-Reference = C3;
-ValeurCmp = (22p);
 IdModule  = SM0805;
 EndCmp
 
@@ -78,13 +64,6 @@ IdModule  = SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FCF7430;
-Reference = D2;
-ValeurCmp = 1n419;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /4FCF79E4;
 Reference = IC1;
 ValeurCmp = MCP1700T-3302ETT;
@@ -110,6 +89,13 @@ TimeStamp = /4FCE70ED;
 Reference = IC4;
 ValeurCmp = SD_CARD;
 IdModule  = SD_CARD9186158;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD0B11A;
+Reference = IC5;
+ValeurCmp = MCP102T-315ETT;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
@@ -166,6 +152,13 @@ TimeStamp = /4FCE6B1F;
 Reference = P8;
 ValeurCmp = CONN_5;
 IdModule  = MOLEX_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD0B585;
+Reference = P9;
+ValeurCmp = CONN_2;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -271,13 +264,6 @@ TimeStamp = /4FCFC60E;
 Reference = SW1;
 ValeurCmp = SW_PUSH4;
 IdModule  = SW_EVQQ2P03W;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FCF71E7;
-Reference = X1;
-ValeurCmp = (16M);
-IdModule  = HC49SM;
 EndCmp
 
 BeginCmp
