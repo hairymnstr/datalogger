@@ -1,0 +1,351 @@
+# EESchema Netlist Version 1.1 created  Thu 07 Jun 2012 13:12:54 BST
+(
+ ( /4FCF79F2 SM0805 C1 1u
+  ( 1 N-000046 )
+  ( 2 GND )
+ )
+ ( /4FCF71F4 SM0805 C2 (22p)
+  ( 1 N-000050 )
+  ( 2 GND )
+ )
+ ( /4FCF71F9 SM0805 C3 (22p)
+  ( 1 N-000051 )
+  ( 2 GND )
+ )
+ ( /4FCF79F6 SM0805 C4 1u
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4FCE6BD2 SM0805 C5 0.1u
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4FCE7580 SM0805 C6 0.1u
+  ( 1 N-000020 )
+  ( 2 N-000036 )
+ )
+ ( /4FCF7449 C2V10 C7 220u
+  ( 1 N-000017 )
+  ( 2 GND )
+ )
+ ( /4FCE6F3D SM0805 C8 18p
+  ( 1 GND )
+  ( 2 N-000037 )
+ )
+ ( /4FCE6CB9 SM0805 C9 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FCE6F40 SM0805 C10 22p
+  ( 1 GND )
+  ( 2 N-000049 )
+ )
+ ( /4FCF729C SOT23 D1 LED_RG
+  ( 1 N-000003 )
+  ( 2 N-000002 )
+  ( 3 GND )
+ )
+ ( /4FCF7430 SM0805 D2 1n419
+  ( 1 +3.3V )
+  ( 2 N-000017 )
+ )
+ ( /4FCF79E4 SOT23 IC1 MCP1700T-3302ETT
+  ( 1 GND )
+  ( 2 +3.3V )
+  ( 3 N-000046 )
+ )
+ ( /4FCE6AE9 SOIC28-WIDE IC2 PIC18F25K22-ESO
+  ( 1 N-000028 )
+  ( 2 N-000039 )
+  ( 3 N-000008 )
+  ( 4 N-000010 )
+  ( 5 N-000047 )
+  ( 6 ? )
+  ( 7 N-000042 )
+  ( 8 GND )
+  ( 9 N-000051 )
+  ( 10 N-000050 )
+  ( 11 N-000026 )
+  ( 12 N-000043 )
+  ( 13 N-000001 )
+  ( 14 N-000025 )
+  ( 15 N-000038 )
+  ( 16 N-000035 )
+  ( 17 /PWR1 )
+  ( 18 /PWR2 )
+  ( 19 GND )
+  ( 20 +3.3V )
+  ( 21 N-000029 )
+  ( 22 /SCL )
+  ( 23 /SDA )
+  ( 24 ? )
+  ( 25 N-000044 )
+  ( 26 N-000023 )
+  ( 27 N-000045 )
+  ( 28 N-000019 )
+ )
+ ( /4FCE6AFA SOIC8 IC3 MCP7940M
+  ( 1 N-000037 )
+  ( 2 N-000049 )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 /SDA )
+  ( 6 /SCL )
+  ( 7 N-000029 )
+  ( 8 N-000017 )
+ )
+ ( /4FCE70ED SD_CARD9186158 IC4 SD_CARD
+  ( 1 N-000026 )
+  ( 2 N-000035 )
+  ( 3 GND )
+  ( 4 +3.3V )
+  ( 5 N-000025 )
+  ( 6 GND )
+  ( 7 N-000038 )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 GND )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 N-000029 )
+ )
+ ( /4FCF5C3A JACK_LUMBERG_1503_13_VP3 P1 JACK_LUMBERG_1503_13_VP3
+  ( 1 GND )
+  ( 2 /SDA )
+  ( 3 /SCL )
+  ( 4a +3.3V )
+  ( 4b +3.3V )
+ )
+ ( /4FCF5C32 JACK_LUMBERG_1503_13_VP3 P2 JACK_LUMBERG_1503_13_VP3
+  ( 1 N-000009 )
+  ( 2 N-000008 )
+  ( 3 N-000039 )
+  ( 4a N-000007 )
+  ( 4b N-000007 )
+ )
+ ( /4FCF5C37 JACK_LUMBERG_1503_13_VP3 P3 JACK_LUMBERG_1503_13_VP3
+  ( 1 N-000011 )
+  ( 2 N-000047 )
+  ( 3 N-000010 )
+  ( 4a N-000048 )
+  ( 4b N-000048 )
+ )
+ ( /4FCF7A32 JUMPER P4 CONN_2
+  ( 1 N-000046 )
+  ( 2 GND )
+ )
+ ( /4FCFCFD1 HEADER_3 P5 CONN_3
+  ( 1 N-000041 )
+  ( 2 N-000007 )
+  ( 3 +3.3V )
+ )
+ ( /4FCFCF39 HEADER_3 P6 CONN_3
+  ( 1 N-000040 )
+  ( 2 N-000048 )
+  ( 3 +3.3V )
+ )
+ ( /4FCE729E HEADER_6 P7 CONN_6
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 ? )
+  ( 4 N-000005 )
+  ( 5 N-000006 )
+  ( 6 N-000036 )
+ )
+ ( /4FCE6B1F MOLEX_5 P8 CONN_5
+  ( 1 N-000020 )
+  ( 2 +3.3V )
+  ( 3 GND )
+  ( 4 N-000019 )
+  ( 5 N-000045 )
+ )
+ ( /4FCFC989 SOT23 Q1 2N7002E
+  ( 1 /PWR1 )
+  ( 2 GND )
+  ( 3 N-000009 )
+ )
+ ( /4FCFCC80 SOT23 Q2 2N7002E
+  ( 1 /PWR2 )
+  ( 2 GND )
+  ( 3 N-000011 )
+ )
+ ( /4FCFAC12 SOT23 Q3 2N7002E
+  ( 1 N-000023 )
+  ( 2 GND )
+  ( 3 N-000016 )
+ )
+ ( /4FCF7B6D SM0805 R1 10k
+  ( 1 N-000046 )
+  ( 2 N-000042 )
+ )
+ ( /4FCF7B74 SM0805 R2 10k
+  ( 1 N-000042 )
+  ( 2 N-000016 )
+ )
+ ( /4FCE6B6B SM0805 R3 100
+  ( 1 N-000020 )
+  ( 2 N-000028 )
+ )
+ ( /4FCE6B77 SM0805 R4 10k
+  ( 1 +3.3V )
+  ( 2 N-000020 )
+ )
+ ( /4FCF72AA SM0805 R5 330
+  ( 1 N-000002 )
+  ( 2 N-000001 )
+ )
+ ( /4FCF72BD SM0805 R6 330
+  ( 1 N-000003 )
+  ( 2 N-000043 )
+ )
+ ( /4FCE74E6 SM0805 R7 1k
+  ( 1 N-000045 )
+  ( 2 N-000006 )
+ )
+ ( /4FCE74C4 SM0805 R8 1k
+  ( 1 N-000019 )
+  ( 2 N-000005 )
+ )
+ ( /4FCE6F07 SM0805 R9 2k2
+  ( 1 +3.3V )
+  ( 2 /SCL )
+ )
+ ( /4FCE6F0A SM0805 R10 2k2
+  ( 1 +3.3V )
+  ( 2 /SDA )
+ )
+ ( /4FCE7069 SM0805 R11 10k
+  ( 1 +3.3V )
+  ( 2 N-000029 )
+ )
+ ( /4FCFC60E SW_EVQQ2P03W SW1 SW_PUSH4
+  ( 1 N-000044 )
+  ( 2 GND )
+  ( 3 N-000044 )
+  ( 4 GND )
+ )
+ ( /4FCF71E7 HC49SM X1 (16M)
+  ( 1 N-000050 )
+  ( 2 N-000051 )
+ )
+ ( /4FCE6C95 CFS206 X2 32.768k
+  ( 1 N-000037 )
+  ( 2 N-000049 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ CP*
+ SM*
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component IC1
+ SOT23
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
