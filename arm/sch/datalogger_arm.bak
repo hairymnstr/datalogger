@@ -1,0 +1,260 @@
+EESchema Schematic File Version 2  date Tue 09 Oct 2012 16:12:19 BST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 43  0
+EELAYER END
+$Descr A3 16535 11700
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "9 oct 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 2100 3500
+Wire Wire Line
+	2200 3500 2100 3500
+Wire Wire Line
+	2100 3800 2200 3800
+Connection ~ 3850 3500
+Wire Wire Line
+	3850 3900 3850 3200
+Wire Wire Line
+	3850 3200 3300 3200
+Wire Wire Line
+	5850 5100 3450 5100
+Wire Wire Line
+	3450 5100 3450 3700
+Wire Wire Line
+	3450 3700 3300 3700
+Connection ~ 3650 3100
+Wire Wire Line
+	3650 3100 3650 5300
+Wire Wire Line
+	3650 5300 5850 5300
+Wire Wire Line
+	4800 3800 3250 3800
+Wire Wire Line
+	4800 3100 3300 3100
+Wire Wire Line
+	5300 3800 5400 3800
+Wire Wire Line
+	8950 7300 9350 7300
+Wire Wire Line
+	8950 7300 8950 7200
+Wire Wire Line
+	9150 7200 9150 7400
+Wire Wire Line
+	5050 7550 5050 7450
+Wire Wire Line
+	5050 7050 5050 6500
+Wire Wire Line
+	5050 6500 5850 6500
+Wire Wire Line
+	5550 7050 5550 6600
+Wire Wire Line
+	5550 6600 5850 6600
+Wire Wire Line
+	5450 6950 5550 6950
+Connection ~ 5550 6950
+Wire Wire Line
+	5150 6950 5050 6950
+Connection ~ 5050 6950
+Wire Wire Line
+	5550 7550 5550 7450
+Wire Wire Line
+	9350 7300 9350 7200
+Connection ~ 9150 7300
+Wire Wire Line
+	5400 3000 5300 3000
+Wire Wire Line
+	5300 3100 5400 3100
+Connection ~ 5400 3100
+Wire Wire Line
+	3300 3000 4800 3000
+Wire Wire Line
+	5850 5400 3550 5400
+Wire Wire Line
+	3550 5400 3550 3600
+Wire Wire Line
+	3550 3600 3300 3600
+Wire Wire Line
+	5850 5200 3750 5200
+Wire Wire Line
+	3750 5200 3750 3300
+Wire Wire Line
+	3750 3300 3300 3300
+Wire Wire Line
+	3850 3500 3300 3500
+Wire Wire Line
+	3300 3400 5400 3400
+Connection ~ 5400 3400
+Wire Wire Line
+	5400 3800 5400 2900
+Connection ~ 5400 3000
+Wire Wire Line
+	2200 3200 2100 3200
+Wire Wire Line
+	2100 3200 2100 3900
+Connection ~ 2100 3800
+$Comp
+L GND #PWR?
+U 1 1 50743EB8
+P 2100 3900
+F 0 "#PWR?" H 2100 3900 30  0001 C CNN
+F 1 "GND" H 2100 3830 30  0001 C CNN
+	1    2100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.0V #PWR?
+U 1 1 50743E9B
+P 5400 2900
+F 0 "#PWR?" H 5400 2860 30  0001 C CNN
+F 1 "+3.0V" H 5400 3010 30  0000 C CNN
+	1    5400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 50743E94
+P 3850 3900
+F 0 "#PWR?" H 3850 3900 30  0001 C CNN
+F 1 "GND" H 3850 3830 30  0001 C CNN
+	1    3850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 50743E29
+P 5050 3800
+F 0 "R?" V 5130 3800 50  0000 C CNN
+F 1 "R" V 5050 3800 50  0000 C CNN
+	1    5050 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 50743E25
+P 5050 3100
+F 0 "R?" V 5130 3100 50  0000 C CNN
+F 1 "R" V 5050 3100 50  0000 C CNN
+	1    5050 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 50743E1B
+P 5050 3000
+F 0 "R?" V 5130 3000 50  0000 C CNN
+F 1 "R" V 5050 3000 50  0000 C CNN
+	1    5050 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SD_CARD IC?
+U 1 1 50743C9D
+P 2750 3400
+F 0 "IC?" H 2550 3900 60  0000 C CNN
+F 1 "SD_CARD" H 2550 2900 60  0000 C CNN
+	1    2750 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 50743C79
+P 9150 7400
+F 0 "#PWR?" H 9150 7400 30  0001 C CNN
+F 1 "GND" H 9150 7330 30  0001 C CNN
+	1    9150 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 50743C41
+P 5050 7550
+F 0 "#PWR?" H 5050 7550 30  0001 C CNN
+F 1 "GND" H 5050 7480 30  0001 C CNN
+	1    5050 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 50743C3F
+P 5550 7550
+F 0 "#PWR?" H 5550 7550 30  0001 C CNN
+F 1 "GND" H 5550 7480 30  0001 C CNN
+	1    5550 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 50743C26
+P 5550 7250
+AR Path="/50743C23" Ref="C?"  Part="1" 
+AR Path="/50743C26" Ref="C?"  Part="1" 
+F 0 "C?" H 5600 7350 50  0000 L CNN
+F 1 "12pF" H 5600 7150 50  0000 L CNN
+	1    5550 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 50743C23
+P 5050 7250
+F 0 "C?" H 5100 7350 50  0000 L CNN
+F 1 "12pF" H 5100 7150 50  0000 L CNN
+	1    5050 7250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CRYSTAL X?
+U 1 1 50743BEE
+P 5300 6950
+F 0 "X?" H 5300 7100 60  0000 C CNN
+F 1 "32768Hz" H 5300 6800 60  0000 C CNN
+	1    5300 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F050C6T6 IC?
+U 1 1 50743BD3
+P 9150 5700
+F 0 "IC?" H 6200 7000 60  0000 C CNN
+F 1 "STM32F050C6T6" H 11800 4400 60  0000 C CNN
+	1    9150 5700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
